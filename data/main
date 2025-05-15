@@ -1,0 +1,5 @@
+pip install dvc
+dvc init
+dvc add data/raw/aviasales_api_response.json
+dvc add data/processed/aggregated_prices.parquet
+git add .dvc data/.gitignore
