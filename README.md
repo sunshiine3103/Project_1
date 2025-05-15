@@ -31,3 +31,12 @@ __Подготовлено__:
 Анализ и визуализация
 
 Формирование выводов
+
+## Как воспроизвести исследование
+
+1. Установите зависимости: `pip install -r requirements.txt`
+2. Запустите ноутбуки в последовательности:
+   - 1_data_collection.ipynb
+   - 2_data_cleaning.ipynb
+   - 3_analysis_visualization.ipynb
+3. Для запуска дэшборда: `python dashboard/app.py`
